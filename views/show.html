@@ -1,0 +1,28 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>comment</title>
+</head>
+<body>
+  <p style="font-size:160%">{{title}}</p>
+  <p style="font-size:125%">{{description}}</p>
+
+  <form method="POST" action="/topic/{{id}}?_method=PUT">
+      <p>
+  comment:
+<!--     <input type="text" name="title" value="{{title}}">
+    <input type="text" name="description" value="{{description}}"> -->
+    <input type="text" size="150" name="content" value="{{content}}"> </p>
+
+<!--     <button type="submit">Update</button> -->
+<p>
+    <button type="submit">send</button>
+  </p>
+  </form>
+
+<!--   <form method="POST" action="/topic/{{id}}?_method=DELETE">
+    <button type="submit">Delete</button>
+  </form> -->
+</body>
+</html>

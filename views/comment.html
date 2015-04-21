@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>show comment</title>
+</head>
+<body>
+  <ul>
+    {{#withComment}}
+    <p>{{title}}</p>
+    <p>{{description}}</p>
+      <li><a href="/comment/{{topic_id}}">{{content}}</a></li>
+    {{/withComment}}
+  </ul>
+   <h3><a href='/'>click here to add new topic</a></h3>
+</body>
+</html>
